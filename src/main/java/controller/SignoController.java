@@ -102,7 +102,7 @@ public class SignoController extends HttpServlet {
                     request.setAttribute("descricao", descricao);
 
                     // Redirecionar para a página JSP para mostrar os resultados
-                    RequestDispatcher dispatcher = request.getRequestDispatcher("resultado.jsp");
+                    RequestDispatcher dispatcher = request.getRequestDispatcher("show_zodiac_sign.jsp");
                     dispatcher.forward(request, response);
                     return;
                 }
